@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="pt-br">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style-home.css">
+	<link rel="stylesheet" type="text/css" href="flexbox.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+	<title>Minha Página</title>
+</head>
+<body>
+	<header>
+		<div class="topo">
+			<p>Diego Andrade</p>
+			<nav>
+				<ul>
+					<li>Sobre Mim</li>
+					<li>Skills</li>
+					<li>Hobbies</li>
+					<li>Formação</li>
+					<li>Projetos</li>
+					<li>diegoandrade.xb@gmail.com</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section>
+			<div class="introduction">
+				<div class="intro-div">
+					<h1>Olá, meu nome é Diego Andrade e construo páginas web</h1>
+					<p>Eu sou formado em e atualmente estou participando do projeto Alura One.</p>
+
+					<ul>
+						<li><a href="">Github</a></li>
+						<li>Linkedin</li>
+						<li>Instagram</li>
+						<li>Currículo</li>
+					</ul>
+				</div>
+				<img class="photo" src="images/imagem-perfil.png" alt="Imagem do Perfil">
+			</div>
+		</section>
+
+		<section>		
+			<div class="sobre">
+				<div>
+					<h2>Sobre mim</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</section>
+		<section class="infos-pessoais">
+			<div class="infos-pessoais-skills">
+				<h3 class="infos-pessoais-h3">Skills</h3>
+				<ul>
+					<li>
+						<img src="images/html5.svg" alt="Logo HTML5">
+						<p>HTML5</p>
+					</li>
+					<li>
+						<img src="images/JS.svg" alt="Logo JavaScript">
+						<p>Javascript</p>
+					</li>
+					<li>
+						<img src="images/css.svg" alt="Logo CSS">
+						<p>CSS</p>
+					</li>
+				</ul>
+
+			</div>
+			<div class="infos-pessoais-hobbies">
+				<h3 class="infos-pessoais-h3">Hobbies</h3>
+				<ul>
+					<li>
+						<img src="images/guitar.svg" alt="Logo Guitarra">
+						<p>Tocar Violão</p>
+					</li>
+					<li>
+						<img src="images/music.svg" alt="Logo Música">
+						<p>Ouvir Música</p>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+		<section class="experiencia-projeto">
+			<h3 class="infos-pessoais-h3">Projetos</h3>
+			<div class="experiencia-projeto-bloco">
+				<img class="experiencia-projeto-imagem" src="./images/encriptador.png" alt="Imagem Jogo">
+				<div class="experiencia-projeto-info">
+					<h4 class="experiencia-projeto-titulo">Decodificador de Textos</h4>
+					<p>Primeiro desafio do Challenge Alura.</p>
+					<div class="experiencia-projeto-botao">
+						<a class="experiencia-projeto-botao-repositorio">Repositório</a>
+						<a class="experiencia-projeto-botao-demo">Ver Demo</a>
+					</div>
+				</div>
+			</div>
+			<div class="experiencia-projeto-bloco">
+				<img class="experiencia-projeto-imagem" src="./images/jogo_forca.png" alt="Imagem Jogo">
+				<div class="experiencia-projeto-info">
+					<h4 class="experiencia-projeto-titulo">Jogo da Forca</h4>
+					<p>Segundo desafio do Challenge Alura. Um jogo da forca usando o API Canvas.</p>
+					<div class="experiencia-projeto-botao">
+						<a class="experiencia-projeto-botao-repositorio" href="https://github.com/DiegoAndP/AluraChallengeSem2Forca" target="_blank">Repositório</a>
+						<a class="experiencia-projeto-botao-demo" class="botao-demo" href="https://diegoandp.github.io/AluraChallengeSem2Forca/" target="_blank">Ver Demo</a>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<section class="contato">
+			<div class="contato-bloco">
+				<img class="contato-bloco_imagem-arquivo" src="./images/contato.jpg" alt="Imagem para contato">
+				<div class="contato-bloco_container">
+					<fieldset class="contato-bloco_container-formulario">
+						<legend class="contato-bloco_container-topo"><h3>Contato</h3></legend>
+						<p>Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+						<legend class="contato-bloco_formulario-legend">Nome</legend>
+						<input class="contato-bloco_formulario-input" type="text"></input>
+						<legend class="contato-bloco_formulario-legend">E-mail</legend>
+						<input class="contato-bloco_formulario-input" type="email" name="">
+						<input class="contato-bloco_formulario-input" type="text" name="" placeholder="Assunto">
+						<textarea class="contato-bloco_formulario-input" type="text"  name="" placeholder="Mensagem"></textarea>
+						<input class="contato-bloco_formulario-submit" type="submit" value="Enviar Mensagem">
+					</fieldset>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Tema desenvolvido por Diego Andrade 2022</p>
+	</footer>
+</body>
+</html>
