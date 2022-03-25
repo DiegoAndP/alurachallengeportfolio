@@ -1,0 +1,31 @@
+
+.projeto__container {
+	display: flex;
+	margin: 0 0 20px 0;
+}
+
+
+@media screen and (min-width: 0) {
+	.projeto__container {
+		flex-flow: column nowrap;
+		align-items: center;
+		padding: 1rem 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.projeto__container {
+		padding: 0 2rem;
+	}
+}
+
+@media screen and (min-width: 922px) {
+	.projeto__container {
+		flex-flow: row;
+		justify-content: flex-start;
+	}	
+	.projeto__container:nth-child(2n+1) {
+			flex-flow: row-reverse;
+		} 
+	}
+}

@@ -1,0 +1,19 @@
+.intro  {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+}
+
+@media screen and (min-width: 0) {
+    .intro {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        width: 60%%;
+    }
+    
+}

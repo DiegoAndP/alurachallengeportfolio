@@ -1,0 +1,8 @@
+.menu-topo-nome {
+	font-weight: 700;
+	align-items: center;
+}
+
+.menu-topo-nome::before {
+	content: url(../../img/group_star.svg);
+}

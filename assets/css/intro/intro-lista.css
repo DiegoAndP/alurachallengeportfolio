@@ -1,0 +1,6 @@
+.intro__lista {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+

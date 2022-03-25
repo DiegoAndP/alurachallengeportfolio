@@ -1,0 +1,27 @@
+.projeto__imagem{
+    margin: 1rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    object-fit:cover;
+    border-radius: 10%;
+    height: auto;
+}
+
+@media screen and (min-width:0px) {
+    .projeto__imagem {
+        width: 300px;
+    }
+    
+}
+
+@media screen and (min-width: 922px) {
+    .projeto__imagem {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projeto__imagem {
+        width: 750px;
+        height: auto;
+    }
+}

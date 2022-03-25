@@ -4,139 +4,193 @@
 	<meta lang="pt-br">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style-home.css">
-	<link rel="stylesheet" type="text/css" href="flexbox.css">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/css/normalize.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/cabecalho.css">
+	<link rel="stylesheet" href="./assets/css/topo/topo.css">
+	<link rel="stylesheet" href="./assets/css/topo/topo-nome.css">
+	<link rel="stylesheet" href="./assets/css/topo/topo-navegacao.css">
+	<link rel="stylesheet" href="./assets/css/topo/topo-lista.css">
+	<link rel="stylesheet" href="./assets/css/topo/topo-lista-itens.css">
+	<link rel="stylesheet" href="./assets/css/introducao.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro-lista.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro-lista-links.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro-foto.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro-titulo.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro-descricao.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro-lista-itens.css">
+	<link rel="stylesheet" href="./assets/css/intro/intro.css">
+	<link rel="stylesheet" href="./assets/css/sobre.css">
+	<link rel="stylesheet" href="./assets/css/pessoal/pessoal.css">
+	<link rel="stylesheet" href="./assets/css/pessoal/pessoal-titulo.css">
+	<link rel="stylesheet" href="./assets/css/pessoal/pessoal-descricao.css">
+	<link rel="stylesheet" href="./assets/css/info.css">
+	<link rel="stylesheet" href="./assets/css/skills/skills.css">
+	<link rel="stylesheet" href="./assets/css/skills/skills-titulo.css">
+	<link rel="stylesheet" href="./assets/css/skills/skill-subtitulo.css">
+	<link rel="stylesheet" href="./assets/css/skills/skills-lista-itens.css">
+	<link rel="stylesheet" href="./assets/css/skills/skills-lista.css">
+	<link rel="stylesheet" href="./assets/css/skills/skills-imagem.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-botao-demo.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-botao-repositorio.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-botao.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-container.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-descricao.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-imagem.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-info.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto-titulo.css">
+	<link rel="stylesheet" href="./assets/css/projeto/projeto.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-container.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-descricao.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-formulario.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-imagem.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-input.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-titulo.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-label.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-info.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-botao.css">
+	<link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+	<link rel="stylesheet" href="./assets/css/rodape/rodape-descricao.css">
+	<link rel="stylesheet" href="./assets/css/contato/contato-lista-erros.css">
 	<title>Minha Página</title>
 </head>
 <body>
-	<header>
+	<header class="cabecalho">
 		<div class="topo">
-			<p>Diego Andrade</p>
-			<nav>
-				<ul>
-					<li>Sobre Mim</li>
-					<li>Skills</li>
-					<li>Hobbies</li>
-					<li>Formação</li>
-					<li>Projetos</li>
-					<li>diegoandrade.xb@gmail.com</li>
+			<p class="topo__nome">Diego Andrade</p>
+			<nav class="topo__navegacao">
+				<ul class="topo__lista">
+					<li class="topo__lista-itens">Sobre Mim</li>
+					<li class="topo__lista-itens">Skills</li>
+					<li class="topo__lista-itens">Hobbies</li>
+					<li class="topo__lista-itens">Formação</li>
+					<li class="topo__lista-itens">Projetos</li>
+					<li class="topo__lista-itens lista-itens--ultimo">diegoandrade.xb@gmail.com</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
 	<main>
-		<section>
-			<div class="introduction">
-				<div class="intro-div">
-					<h1>Olá, meu nome é Diego Andrade e construo páginas web</h1>
-					<p>Eu sou formado em e atualmente estou participando do projeto Alura One.</p>
+		<section class="introducao">
+			<div class="intro">
+				<div class="intro">
+					<h2 class="intro__titulo">Olá, meu nome é Diego Andrade e construo páginas web</h2>
+					<p class="intro__descricao">Tenho o ensino médio completo e atualmente estou participando do projeto Alura One.</p>
 
-					<ul>
-						<li><a href="">Github</a></li>
-						<li>Linkedin</li>
-						<li>Instagram</li>
-						<li>Currículo</li>
+					<ul class="intro__lista">
+						<li class="intro__lista-itens"><a class="intro__lista-links" href="">Github</a></li>
+						<li class="intro__lista-itens"><a class="intro__lista-links" href="">Linkedin</a></li>
+						<li class="intro__lista-itens"><a class="intro__lista-links" href="">Instagram</a></li>
+						<li class="intro__lista-itens"><a class="intro__lista-links" href="">Currículo</a></li>
 					</ul>
 				</div>
-				<img class="photo" src="images/imagem-perfil.png" alt="Imagem do Perfil">
 			</div>
+			<img class="intro__foto" src="./assets/img/imagem-perfil.png"/>
 		</section>
 
-		<section>		
-			<div class="sobre">
-				<div>
-					<h2>Sobre mim</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<section class="sobre">		
+			<div class="pessoal">
+					<h1 class="pessoal__titulo">Sobre mim</h1>
+					<p class="pessoal__descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-			</div>
 		</section>
-		<section class="infos-pessoais">
-			<div class="infos-pessoais-skills">
-				<h3 class="infos-pessoais-h3">Skills</h3>
-				<ul>
-					<li>
-						<img src="images/html5.svg" alt="Logo HTML5">
-						<p>HTML5</p>
+		<section class="info">
+			<div class="skills">
+				<h2 class="skills__titulo">Skills</h2>
+				<ul class="skills__lista">
+					<li class="skills__lista-itens">
+						<img class="skills__imagem" src="./assets/img/html5.svg" alt="Imagem HTML"/>
+						<p class="skills__subtitulo">HTML5</p>
 					</li>
-					<li>
-						<img src="images/JS.svg" alt="Logo JavaScript">
-						<p>Javascript</p>
+					<li class="skills__lista-itens">
+						<img class="skills__imagem" src="./assets/img/JS.svg" alt="Imagem Javascript"/>
+						<p class="skills__subtitulo">Javascript</p>
 					</li>
-					<li>
-						<img src="images/css.svg" alt="Logo CSS">
-						<p>CSS</p>
+					<li class="skills__lista-itens">
+						<img class="skills__imagem" src="./assets/img/css.svg" alt="Imagem CSS"/>
+						<p class="skills__subtitulo">CSS</p>
 					</li>
 				</ul>
 
 			</div>
-			<div class="infos-pessoais-hobbies">
-				<h3 class="infos-pessoais-h3">Hobbies</h3>
-				<ul>
-					<li>
-						<img src="images/guitar.svg" alt="Logo Guitarra">
-						<p>Tocar Violão</p>
+			<div class="skills">
+				<h2 class="skills__titulo">Hobbies</h2>
+				<ul class="skills__lista">
+					<li class="skills__lista-itens">
+						<img class="skills__imagem" src="./assets/img/guitar.svg" alt="Imagem Violão">
+						<p class="skills__subtitulo">Tocar Violão</p>
 					</li>
-					<li>
-						<img src="images/music.svg" alt="Logo Música">
-						<p>Ouvir Música</p>
+					<li class="skills__lista-itens">
+						<img class="skills__imagem" src="./assets/img/music.svg" alt="Logo Música">
+						<p class="skills__subtitulo">Ouvir Música</p>
 					</li>
 				</ul>
-
 			</div>
 		</section>
-		<section class="experiencia-projeto">
-			<h3 class="infos-pessoais-h3">Projetos</h3>
-			<div class="experiencia-projeto-bloco">
-				<img class="experiencia-projeto-imagem" src="./images/encriptador.png" alt="Imagem Jogo">
-				<div class="experiencia-projeto-info">
-					<h4 class="experiencia-projeto-titulo">Decodificador de Textos</h4>
-					<p>Primeiro desafio do Challenge Alura.</p>
-					<div class="experiencia-projeto-botao">
-						<a class="experiencia-projeto-botao-repositorio">Repositório</a>
-						<a class="experiencia-projeto-botao-demo">Ver Demo</a>
+		<section class="projeto">
+			<h2 class="projeto__titulo">Projetos</h2>
+			<div class="projeto__container">
+				<img class="projeto__imagem" src="./assets/img/encriptador.png" alt="Imagem Jogo">
+				<div class="projeto__info">
+					<h3 class="projeto__titulo">Decodificador de Textos</h3>
+					<p class="projeto__descricao">Primeiro desafio do Challenge Alura.</p>
+					<div class="projeto__botao">
+						<a class="projeto__botao-repositorio" href="https://github.com/DiegoAndP/encriptadordetexto" target="_blank">Repositório</a>
+						<a class="projeto__botao-demo" href="https://DiegoAndP.github.io/encriptadordetexto/" target="_blank">Ver Demo</a>
 					</div>
 				</div>
 			</div>
-			<div class="experiencia-projeto-bloco">
-				<img class="experiencia-projeto-imagem" src="./images/jogo_forca.png" alt="Imagem Jogo">
-				<div class="experiencia-projeto-info">
-					<h4 class="experiencia-projeto-titulo">Jogo da Forca</h4>
-					<p>Segundo desafio do Challenge Alura. Um jogo da forca usando o API Canvas.</p>
-					<div class="experiencia-projeto-botao">
-						<a class="experiencia-projeto-botao-repositorio" href="https://github.com/DiegoAndP/AluraChallengeSem2Forca" target="_blank">Repositório</a>
-						<a class="experiencia-projeto-botao-demo" class="botao-demo" href="https://diegoandp.github.io/AluraChallengeSem2Forca/" target="_blank">Ver Demo</a>
+			<div class="projeto__container">
+				<img class="projeto__imagem" src="./assets/img/jogo_forca.png" alt="Imagem Jogo">
+				<div class="projeto__info">
+					<h3 class="projeto__titulo">Jogo da Forca</h3>
+					<p class="projeto__descricao">Segundo desafio do Challenge Alura. Um jogo da forca usando o API Canvas.</p>
+					<div class="projeto__botao">
+						<a class="projeto__botao-repositorio" href="https://github.com/DiegoAndP/AluraChallengeSem2Forca" target="_blank">Repositório</a>
+						<a class="projeto__botao-demo" href="https://diegoandp.github.io/AluraChallengeSem2Forca/" target="_blank">Ver Demo</a>
 					</div>
 				</div>	
 			</div>
 		</section>
 		<section class="contato">
-			<div class="contato-bloco">
-				<img class="contato-bloco_imagem-arquivo" src="./images/contato.jpg" alt="Imagem para contato">
-				<div class="contato-bloco_container">
-					<fieldset class="contato-bloco_container-formulario">
-						<legend class="contato-bloco_container-topo"><h3>Contato</h3></legend>
-						<p>Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-						<legend class="contato-bloco_formulario-legend">Nome</legend>
-						<input class="contato-bloco_formulario-input" type="text"></input>
-						<legend class="contato-bloco_formulario-legend">E-mail</legend>
-						<input class="contato-bloco_formulario-input" type="email" name="">
-						<input class="contato-bloco_formulario-input" type="text" name="" placeholder="Assunto">
-						<textarea class="contato-bloco_formulario-input" type="text"  name="" placeholder="Mensagem"></textarea>
-						<input class="contato-bloco_formulario-submit" type="submit" value="Enviar Mensagem">
-					</fieldset>
+				<img class="contato__imagem" src="./assets/img/contato.jpg"/>
+				<div class="contato__container">
+					<form id="formulario" class="contato__formulario">
+					<h3 class="contato__titulo">Contato</h3>
+					<p class="contato__descricao">Quer entrar em contato comigo? Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+					<div class="contato__info">
+						<label class="contato__label" for="nome">Nome</label>
+						<input class="contato__input" type="text" id="nome" name="nome" required>
+					</div>
+					<div class="contato__info">
+						<label class="contato__label" for="email">E-mail</label>
+						<input class="contato__input" type="email" placeholder="meuemail@provedor.com" id="email" name="email" required>
+					</div>
+					<div class="contato__info">
+						<!-- <label class="contato__label" for="assunto">Assunto</label> -->
+						<input class="contato__input" type="text" id="assunto" name="assunto" placeholder=" Assunto">
+					</div>
+					<div class="contato__info">
+						<!---<label class="contato__label" for="mensagem">Mensagem</label> -->
+						<textarea class="contato__input--formulario__textarea" form="formulario" type="text" id="mensagem" rows="5" name="mensagem" placeholder="Digite a sua mensagem"></textarea>
+					</div>
+					<ul class="contato__lista"></ul>
+					<button class="contato__botao" type="submit" form>Enviar Mensagem</button>
+					</form>	
 				</div>
-			</div>
 		</section>
 	</main>
-	<footer>
-		<p>Tema desenvolvido por Diego Andrade 2022</p>
+	<footer class="rodape">
+		<p class="rodape__descricao">Tema desenvolvido por Diego Andrade <br> 2022</p>
 	</footer>
-</body>
+	<script type="text/javascript" src="./assets/js/valida.js"></script>
+</body> 
 </html>

@@ -1,0 +1,8 @@
+.sobre{
+	background: #EAF2FD;
+	align-items: flex-start;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+	margin: .5rem 0;
+}

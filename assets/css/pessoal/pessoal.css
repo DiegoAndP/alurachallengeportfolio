@@ -1,0 +1,19 @@
+@media screen and (min-width: 0) {
+    .pessoal {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoal {
+        padding: 0 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 922px) {
+    .pessoal {
+        padding: 0 9.5rem;
+    }
+    
+}

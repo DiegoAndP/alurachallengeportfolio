@@ -1,0 +1,34 @@
+.skills__lista-itens {
+    border-radius: 3rem 0 3rem 0;
+    box-shadow: 5px 5px 8px rgba(42, 122, 228, .3);
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+	background: #FFFFFF;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .skills__lista-itens {
+        width: 156px;
+        height: 118px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .skills__lista-itens {
+        width: 224px;
+        height: 118px;
+    }
+}
+
+@media screen and (min-width:922px) {
+    .skills__lista-itens {
+        width: 176px;
+        height: 174px;
+    }
+}
+

@@ -1,0 +1,10 @@
+.contato__lista {
+    padding: 0;
+}
+
+.contato__lista-erros {
+    list-style: none;
+    color: red;
+    font-size: 14px;
+    line-height: 1.5rem;
+}

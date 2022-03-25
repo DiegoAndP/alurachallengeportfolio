@@ -1,0 +1,22 @@
+.topo__lista-itens {
+	display: flex;
+	font-weight: 500;
+	margin: 0 0 0 1rem;
+
+}
+
+.lista-itens--ultimo {
+	font-weight: bold;
+}
+
+@media screen and (min-width:0) {
+	.topo__lista-itens:not(.topo__lista-itens:last-child) {
+		display: none;		
+	}
+}
+
+@media screen and (min-width:922px) {
+	.topo__lista-itens:not(.topo__lista-itens:last-child) {
+		display: flex;		
+	}
+}

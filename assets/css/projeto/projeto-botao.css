@@ -1,0 +1,9 @@
+.projeto__botao {
+    margin: 1rem 0 0 0;
+}
+
+@media screen and (min-width: 0) {
+    .projeto__botao {
+        display: flex;
+    }
+}

@@ -1,0 +1,11 @@
+.contato__info {
+    display: flex;
+    flex-direction: column;
+    background: #EAF2FD;
+    margin: 0 0 2rem 0;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.contato__info:hover {
+    box-shadow: 2px 2px 8px rgba(42, 122, 228, 0.88);
+}

@@ -1,0 +1,15 @@
+.contato__descricao {
+    margin: .25rem 0 2rem 0;
+}
+
+@media screen and (min-width:0) {
+    .contato__descricao {
+        text-align:center;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .contato__descricao {
+        text-align: left;
+    }
+}

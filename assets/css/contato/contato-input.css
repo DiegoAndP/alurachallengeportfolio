@@ -1,0 +1,32 @@
+.contato__input {
+    background-color: #EAF2FD;
+    border: none;
+    height: 56px;
+    padding: 0 1rem 0;
+    font-weight: bold;
+}
+
+.contato__input:focus {
+    outline: none;
+}
+
+.contato__input--formulario__textarea {
+    width: 656px;
+    height: 133px;
+    resize: none;
+    outline: none;
+    border:none;
+    background-color: #EAF2FD;
+    font-weight: bold;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.contato__input--formulario__textarea:hover {
+    box-shadow: 2px 2px 8px rgba(42, 122, 228, 0.88);
+}
+
+@media screen and (min-width: 0) {
+    .contato__input--formulario__textarea {
+        width: auto;
+    }
+}

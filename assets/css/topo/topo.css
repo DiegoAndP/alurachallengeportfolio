@@ -1,0 +1,10 @@
+.topo {
+    display: flex;
+}
+
+
+@media screen and (min-width:768px) {
+    .topo {
+        justify-content: space-between;
+    }
+}

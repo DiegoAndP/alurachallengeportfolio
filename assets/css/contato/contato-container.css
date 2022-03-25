@@ -1,0 +1,11 @@
+.contato__container {
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+@media screen and (min-width:0) {
+    .contato__container {
+        width: auto;
+    }
+
+}

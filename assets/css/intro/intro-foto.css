@@ -1,0 +1,27 @@
+.intro__foto {
+    background: url('../../images/imagem-perfil.png') no-repeat  ;
+ 
+}
+
+@media screen and (min-width:0px) {
+    .intro__foto {
+        order: -1;
+        width: 98px;
+        height: 98px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .intro__foto {
+        order: 0;
+        width: 146px;
+        height: 146px;
+    }
+}
+
+@media screen and (mini-width:1024px) {
+    .intro__foto {
+        width: 368px;
+        height: 368px;
+    }
+}

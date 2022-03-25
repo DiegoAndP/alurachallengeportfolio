@@ -1,0 +1,26 @@
+.projeto {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	background: #EAF2FD;
+	padding: 0 9.5rem;
+
+}
+
+@media screen and (min-width: 0) {
+	.projeto {
+		padding: 1rem 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.projeto {
+		padding: 0 2rem;
+	}
+}
+
+@media screen and (min-width: 922px) {
+	.projeto {
+		padding: 0 9.5rem;
+	}
+}

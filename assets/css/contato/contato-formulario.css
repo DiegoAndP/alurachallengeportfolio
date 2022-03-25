@@ -1,0 +1,15 @@
+.contato__formulario {
+    border: none;
+}
+
+.formulario--textarea {
+    resize: horizontal;
+    border: 1 solid black;
+}
+
+@media screen and (min-width: 0) {
+    .contato__formulario {
+        
+    }
+    
+}

@@ -1,0 +1,14 @@
+.projeto__botao-demo {
+	padding: 16px;
+	margin: 0 0 0 0.5rem;
+	background: #2A7AE4;
+	color: #ffffff;
+	border: none;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+.projeto__botao-demo:hover {
+	background-color: #375173;
+	cursor: pointer;
+}

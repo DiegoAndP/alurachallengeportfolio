@@ -1,0 +1,7 @@
+.projeto__info {
+	display: flex;
+	flex-flow: column;
+	padding: 0 26px;
+	justify-content: center;
+	align-items: center;
+}
